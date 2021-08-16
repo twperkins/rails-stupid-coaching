@@ -1,0 +1,11 @@
+<div class="asked">
+  <p class="text"><%= params[:asked] %></p>
+  <p class="person"><i>-You</i></p>
+</div>
+
+<div class="answer">
+  <p class="text"><%= @answer_custom %></p>
+  <p class="person"><i>-Your coach</i></p>
+</div>
+
+<p class="link"><%= link_to 'Ask another question', ask_path %></p>
